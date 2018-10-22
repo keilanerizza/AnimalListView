@@ -22,11 +22,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         setContentView(listView);
         animais = new ArrayList<Animal>();
         animais.add(new Animal("Elefante",0));
-        animais.add(new Animal("Gnu",1));
+        animais.add(new Animal("Coelho",1));
         animais.add(new Animal("Leão",2));
-        animais.add(new Animal("Lobo",3));
+        animais.add(new Animal("Borboleta",3));
         animais.add(new Animal("Panda",4));
-        animais.add(new Animal("Tigre",5));
+        animais.add(new Animal("Raposa",5));
         animais.add(new Animal("Cachorro",6));
         animais.add(new Animal("Macaco",7));
         listView.setAdapter(new AnimalAdapter(this,animais));
